@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Usuarios</title>
+    <script src="lista.js"></script>
+    <link rel="stylesheet" href="lista.css">
+</head>
+<body>
+
+    <h1>Usuarios</h1>
+
+    <input type="text" id="buscar" placeholder="Buscar usuario">
+    <button onclick="buscarUsuarios()">Buscar</button>
+    <button onclick="volverLogin()">Volver al Login</button>
+
+    <br><br>
+
+    <table border="1" id="tabla">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Usuario</th>
+                <th>Bloqueado</th>
+                <th>Apellido</th>
+                <th>Nombre</th>
+                <th>Bloquear</th>
+                <th>Desbloquear</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--  let html = "";
+
+        data.forEach(u => {
+            let clase 
+            if (u.bloqueado === 'Y') {
+                clase = 'bloqueado';
+            } else {
+                clase = 'no-bloqueado';
+                }
+            html += `
+            
+                <tr class="${clase}">
+                    <td>${u.id}</td>
+                    <td>${u.usuario}</td>
+                    <td>${u.bloqueado}</td>
+                    <td>${u.apellido}</td>
+                    <td>${u.nombre}</td>
+                    <td>
+                        <button onclick="bloquear(${u.id}, 'Y')">Bloquear</button>
+                    </td>
+                    <td>
+                        <button onclick="bloquear(${u.id}, 'N')">Desbloquear</button>
+                    </td>
+                </tr>
+            `;
+
+        });
+
+    // lo mando al HTML
+    tbody.innerHTML = html;
+}
+    
+
+esto viene desde lista.js, donde se arma el HTML de la tabla con los datos que vienen del backend.
+
+
+-->
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+input {
+    padding: 6px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #fffcfc;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+.bloqueado {
+    background-color: #fd9f8b;
+}
+
+
+.no-bloqueado {
+    background-color: #cef8c6;
+}
